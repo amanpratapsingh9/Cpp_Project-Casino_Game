@@ -99,3 +99,4 @@ void rules()
     cout<<"nt3. Iff you bet on wrong number you will loose your betting amount\n\n";
     drawLine(80,'-');
 }
+
