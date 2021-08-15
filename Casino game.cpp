@@ -74,7 +74,9 @@ int main()
             }
             cout<<"\n\n-->Do you want to play again(y/n)? ";
             cin>>choice;
-    } while(choice == 'Y' || choice == 'y');
+    } 
+    
+    while(choice == 'Y' || choice == 'y');
     cout<<"\n\n\n";
     drawLine(70,'=');
     cout<<"\n\nThanks for playing game. Your balance amount is $ "<<amount<<"\n\n";
