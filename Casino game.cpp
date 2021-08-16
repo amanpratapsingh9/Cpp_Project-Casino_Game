@@ -51,7 +51,9 @@ int main()
             if(guess <= 0 || guess > 10)
                 cout<<"Please check the number!! should be between 1 to 10\n"
                 <<"\nRe-enter data\n";
-        } while (guess <=0 || guess>10);
+        } 
+        
+        while (guess <=0 || guess>10);
 
         dice = rand()%10 + 1;
 
